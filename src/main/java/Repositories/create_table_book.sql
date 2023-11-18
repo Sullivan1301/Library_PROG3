@@ -1,5 +1,3 @@
-package Repositories;
-
 CREATE TABLE IF NOT EXISTS book (
     id serial PRIMARY KEY,
     nameBook VARCHAR(255) NOT NULL,
