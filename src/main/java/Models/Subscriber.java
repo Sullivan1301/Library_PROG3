@@ -1,1 +1,1 @@
-package Models;import lombok.*;@Getter@Setter@ToString@AllArgsConstructor@NoArgsConstructor@EqualsAndHashCode(callSuper = false)public class Subscribers extends User{    private String username;    private String password;}
+package Models;import lombok.*;@Getter@Setter@ToString@AllArgsConstructor@NoArgsConstructor@EqualsAndHashCode(callSuper = false)public class Subscriber extends User{    private String username;    private String password;}
