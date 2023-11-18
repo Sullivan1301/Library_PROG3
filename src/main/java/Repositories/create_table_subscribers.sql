@@ -1,4 +1,3 @@
--- create_table_subscribers.sql
 CREATE TABLE IF NOT EXISTS subscribers (
     id serial PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
