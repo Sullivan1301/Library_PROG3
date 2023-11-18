@@ -4,10 +4,8 @@ CREATE TABLE IF NOT EXISTS book (
     pageNumbers int NOT NULL,
     topic VARCHAR(20) DEFAULT 'OTHER' CHECK (topic IN('COMEDY','ROMANCE','OTHER' )),
     releaseDate DATE,
-    author VARCHAR (255),
-    status VARCHAR(50),
-
-    CONSTRAINT fkAuthor Foreign Key (author) REFERENCES author(name)
+    authorId INT REFERENCES authors(id),
+    status VARCHAR(50)
 );
 
 INSERT INTO book VALUES ('1', 'Naruto', 90, 'COMEDY', '2023-11-16', 1, 'AVAILABLE'),

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repositories/AuthorCrudOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repositories/BookCrudOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repositories/SubscriberCrudOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69/storage_v2/_src_/database/library_management.R_axpA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69/storage_v2/_src_/database/library_management.R_axpA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Subscribers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_author.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_author.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_book.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.create_table_author.sql">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <envs>
         <env name="username" value="prog_admin" />
@@ -79,6 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="create_table_author.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/java/Ressouces/create_table_author.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.create_table_author.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +106,7 @@
       <workItem from="1700297277364" duration="3305000" />
       <workItem from="1700305552716" duration="91000" />
       <workItem from="1700309032664" duration="1174000" />
-      <workItem from="1700310349195" duration="2164000" />
+      <workItem from="1700310349195" duration="3920000" />
     </task>
     <servers />
   </component>
