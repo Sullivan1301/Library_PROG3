@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Book.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1700197411122" duration="709000" />
       <workItem from="1700198209286" duration="3684000" />
       <workItem from="1700291436431" duration="2732000" />
-      <workItem from="1700297277364" duration="2081000" />
+      <workItem from="1700297277364" duration="2392000" />
     </task>
     <servers />
   </component>
@@ -107,6 +105,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/Models/Book.java</url>
+          <line>17</line>
+          <properties field="topic" class="Models.Book" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
