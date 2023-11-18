@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69/storage_v2/_src_/database/library_management.R_axpA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0962ad75-4e09-4951-b9fb-116ead7f7c69/storage_v2/_src_/database/library_management.R_axpA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_author.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_author.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ressouces/create_table_book.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repositories/BookCrudOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repositories/BookCrudOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1700297277364" duration="3305000" />
       <workItem from="1700305552716" duration="91000" />
       <workItem from="1700309032664" duration="1174000" />
-      <workItem from="1700310349195" duration="3920000" />
+      <workItem from="1700310349195" duration="9119000" />
     </task>
     <servers />
   </component>
