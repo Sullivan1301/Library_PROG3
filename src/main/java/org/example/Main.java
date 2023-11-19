@@ -18,7 +18,7 @@ public class Main {
         DataBaseConnection.ManagingDataBaseConnection connectionManager = new DataBaseConnection.ManagingDataBaseConnection();
 
         try (Connection connection = connectionManager.getConnection()) {
-            SubscriberCrudOperations subscribersCrudOperations = new SubscriberCrudOperations();
+            SubscriberCrudOperations subscribersCrudOperations = new SubscriberCrudOperations(connection);
 
             List<Subscriber> allSubscribers = subscribersCrudOperations.findAll();
             System.out.println("All Subscribers:");
@@ -52,7 +52,7 @@ public class Main {
         }
 
         try (Connection connection = connectionManager.getConnection()) {
-            AuthorCrudOperations authorCrudOperations = new AuthorCrudOperations();
+            AuthorCrudOperations authorCrudOperations = new AuthorCrudOperations(connection);
             List<Author> allAuthors = authorCrudOperations.findAll();
             System.out.println("All authors:");
             for (Author author : allAuthors) {
@@ -83,7 +83,7 @@ public class Main {
         }
 
         try (Connection connection = connectionManager.getConnection()) {
-            BookCrudOperations bookCrudOperations = new BookCrudOperations();
+            BookCrudOperations bookCrudOperations = new BookCrudOperations(connection);
 
             List<Book> allBooks = bookCrudOperations.findAll();
             System.out.println("All books:");
