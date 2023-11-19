@@ -2,7 +2,6 @@ package org.example;
 
 import Models.Author;
 import Models.Book;
-
 import Models.Subscriber;
 import Repositories.AuthorCrudOperations;
 import Repositories.BookCrudOperations;
@@ -54,7 +53,6 @@ public class Main {
 
         try (Connection connection = connectionManager.getConnection()) {
             AuthorCrudOperations authorCrudOperations = new AuthorCrudOperations();
-
             List<Author> allAuthors = authorCrudOperations.findAll();
             System.out.println("All authors:");
             for (Author author : allAuthors) {
@@ -62,7 +60,7 @@ public class Main {
             }
 
             Author newAuthor = new Author();
-            newAuthor.setName("Sylvania Anja");
+            newAuthor.setName("Kazue Kato");
             newAuthor.setSex('F');
 
             Author createdAuthor = authorCrudOperations.save(newAuthor);
