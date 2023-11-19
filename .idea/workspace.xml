@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repositories/AuthorCrudOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repositories/AuthorCrudOperations.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b3883d4-36fc-4497-9de6-31c18be0f77b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +101,7 @@
       <workItem from="1700305552716" duration="91000" />
       <workItem from="1700309032664" duration="1174000" />
       <workItem from="1700310349195" duration="9119000" />
-      <workItem from="1700392016375" duration="3235000" />
+      <workItem from="1700392016375" duration="3644000" />
     </task>
     <servers />
   </component>
@@ -123,6 +120,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Repositories/BookCrudOperations.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/Models/Book.java</url>
