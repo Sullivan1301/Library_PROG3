@@ -4,6 +4,7 @@ import lombok.*;
 
 
 import java.time.LocalDate;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -21,7 +22,10 @@ public class Book {
    private int authorID;
    private String status;
 
-   enum Topic{
+   public Book(String id, String bookName, int pageNumbers, Topic topic, Date releaseDate, int authorID, String status) {
+   }
+
+   public enum Topic{
       COMEDY,
       ROMANCE,
       OTHER
